@@ -1,0 +1,10 @@
+feign:
+  hystrix:
+    enabled: true
+
+logging:
+  level:
+#    ROOT: debug
+    org.springframework.cloud.netflix: debug
+    konrad: debug
+
